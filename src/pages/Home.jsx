@@ -2,6 +2,7 @@ import heroImg from "../assets/images/hero.png";
 import googlePlay from "../assets/icons/google-play.png";
 import appStore from "../assets/icons/app-store.png";
 import Stats from "../components/Stats"; 
+import TrendingApps from "../components/TrendingApps";
 
 function Home() {
   return (
@@ -52,6 +53,9 @@ function Home() {
 
     {/* Stats Section */}
       <Stats />
+
+      {/* Trending Apps Section */}
+      <TrendingApps /> 
   </div>
   );
 }

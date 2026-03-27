@@ -1,0 +1,146 @@
+ [
+  {
+    "image": "https://picsum.photos/200?random=1",
+    "title": "Chatify",
+    "companyName": "NovaTech",
+    "id": 1,
+    "description": "A real-time messaging app with secure chat and media sharing.",
+    "size": 45,
+    "reviews": 12450,
+    "ratingAvg": 4.5,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 5750 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=2",
+    "title": "FitPulse",
+    "companyName": "Healthify Labs",
+    "id": 2,
+    "description": "Track workouts, calories, and health progress easily.",
+    "size": 60,
+    "reviews": 9800,
+    "ratingAvg": 4.3,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 3500 },
+      { "name": "5 star", "count": 4200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=3",
+    "title": "TaskFlow",
+    "companyName": "Productive Inc",
+    "id": 3,
+    "description": "Organize tasks and boost productivity with smart reminders.",
+    "size": 30,
+    "reviews": 7400,
+    "ratingAvg": 4.2,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 250 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2700 },
+      { "name": "5 star", "count": 2850 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=4",
+    "title": "SnapEdit",
+    "companyName": "PixelSoft",
+    "id": 4,
+    "description": "Advanced photo editor with AI filters and effects.",
+    "size": 75,
+    "reviews": 15800,
+    "ratingAvg": 4.6,
+    "downloads": 800000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1800 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 7400 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=5",
+    "title": "MusicWave",
+    "companyName": "SoundSphere",
+    "id": 5,
+    "description": "Stream millions of songs and create custom playlists.",
+    "size": 55,
+    "reviews": 20300,
+    "ratingAvg": 4.7,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 700 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2000 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 10200 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=6",
+    "title": "TravelGo",
+    "companyName": "Wanderlust Ltd",
+    "id": 6,
+    "description": "Plan trips, book hotels, and explore destinations.",
+    "size": 65,
+    "reviews": 8700,
+    "ratingAvg": 4.4,
+    "downloads": 400000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 1400 },
+      { "name": "4 star", "count": 3200 },
+      { "name": "5 star", "count": 3300 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=7",
+    "title": "Learnify",
+    "companyName": "EduCore",
+    "id": 7,
+    "description": "Online courses and tutorials for skill development.",
+    "size": 80,
+    "reviews": 11200,
+    "ratingAvg": 4.5,
+    "downloads": 600000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1600 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 4700 }
+    ]
+  },
+  {
+    "image": "https://picsum.photos/200?random=8",
+    "title": "FinTrack",
+    "companyName": "MoneyWise",
+    "id": 8,
+    "description": "Manage expenses and track financial goals.",
+    "size": 40,
+    "reviews": 6900,
+    "ratingAvg": 4.3,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 2600 }
+    ]
+  }
+]
