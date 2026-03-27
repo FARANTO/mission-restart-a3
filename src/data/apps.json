@@ -286,5 +286,77 @@
       { "name": "4 star", "count": 1800 },
       { "name": "5 star", "count": 1600 }
     ]
+  },
+  {
+    "id": 21,
+    "title": "Forest: Focus For Productivity",
+    "companyName": "seekrtech.com",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0e/7e/3d/0e7e3d1a-6d1a-4d1a-8d1a-3d1a6d1a4d1a/AppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/512x512bb.jpg",
+    "downloads": 9000000,
+    "ratingAvg": 4.8,
+    "reviews": 120000,
+    "size": 156,
+    "description": "Stay focused, be present. Forest is an app that helps you put down your phone and focused on what's more important in your life.",
+    "ratings": [
+      { "name": "5 star", "count": 10000 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "1 star", "count": 800 }
+    ]
+  },
+  {
+    "id": 22,
+    "title": "SmPlan: ToDo List With Reminder",
+    "companyName": "productive.io",
+    "image": "https://cdn-icons-png.flaticon.com/512/2693/2693507.png",
+    "downloads": 8000000,
+    "ratingAvg": 4.9,
+    "reviews": 54000,
+    "size": 291,
+    "description": "This focus app takes the proven Pomodoro technique and makes it even more practical for modern lifestyles. Instead of just setting a timer, it builds a complete environment for deep work.",
+    "ratings": [
+      { "name": "5 star", "count": 11000 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "1 star", "count": 900 }
+    ]
+  },
+  {
+    "id": 23,
+    "title": "FLIP - Focus Timer For Study",
+    "companyName": "flipcorp.app",
+    "image": "https://play-lh.googleusercontent.com/9-38-r8u_U9z-38-r8u_U9z-38-r8u_U9z",
+    "downloads": 5000000,
+    "ratingAvg": 4.7,
+    "reviews": 42000,
+    "size": 88,
+    "description": "FLIP can help you improve your study habits through a focus timer and detailed statistics of your study time.",
+    "ratings": [
+      { "name": "5 star", "count": 8000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "1 star", "count": 500 }
+    ]
+  },
+  {
+    "id": 24,
+    "title": "Pomocat - Cute Pomodoro Timer",
+    "companyName": "meowfocus.com",
+    "image": "https://play-lh.googleusercontent.com/meow-icon",
+    "downloads": 2000000,
+    "ratingAvg": 5.0,
+    "reviews": 15000,
+    "size": 45,
+    "description": "A cute cat-themed productivity timer that makes working fun. Collect virtual cats while you focus on your tasks!",
+    "ratings": [
+      { "name": "5 star", "count": 14000 },
+      { "name": "4 star", "count": 800 },
+      { "name": "3 star", "count": 100 },
+      { "name": "2 star", "count": 50 },
+      { "name": "1 star", "count": 50 }
+    ]
   }
 ]
