@@ -1,14 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import { toast } from "react-toastify"; // ✅ Import toast
 
 function Installation() {
-  // --- FIX: Initialize state directly from LocalStorage ---
   const [installedApps, setInstalledApps] = useState(() => {
     return JSON.parse(localStorage.getItem("installedApps") || "[]");
   });
 
-  const [showToast, setShowToast] = useState(false);
-  const [toastMsg, setToastMsg] = useState("");
   const [sortOrder, setSortOrder] = useState("");
 
   const handleUninstall = (id, title) => {
@@ -16,9 +14,10 @@ function Installation() {
     setInstalledApps(filtered);
     localStorage.setItem("installedApps", JSON.stringify(filtered));
     
-    setToastMsg(`${title} uninstalled successfully!`);
-    setShowToast(true);
-    setTimeout(() => setShowToast(false), 3000);
+    // ✅ Use react-toastify
+    toast.error(`${title} uninstalled successfully!`, {
+        icon: "🗑️" // Optional: custom icon for uninstall
+    });
   };
 
   const formatNumber = (num) => {
@@ -44,7 +43,7 @@ function Installation() {
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-xl font-bold text-[#0B1B3D]">{installedApps.length} Apps Found</h2>
           <select 
-            className="select select-bordered select-sm bg-white border-gray-300 text-gray-600 focus:outline-none"
+            className="select select-bordered select-sm bg-white"
             value={sortOrder}
             onChange={(e) => setSortOrder(e.target.value)}
           >
@@ -66,23 +65,21 @@ function Installation() {
             {sortedApps.map((app) => (
               <div key={app.id} className="bg-white p-4 rounded-2xl shadow-sm flex items-center justify-between border border-gray-100">
                 <div className="flex items-center gap-6">
-                  <div className="w-20 h-20 bg-gray-100 rounded-2xl flex-shrink-0 p-3">
-                    <img src={app.image} alt={app.title} className="w-full h-full object-contain rounded-lg" />
+                  <div className="w-20 h-20 bg-gray-100 rounded-2xl p-3">
+                    <img src={app.image} alt={app.title} className="w-full h-full object-contain" />
                   </div>
                   <div>
                     <h3 className="font-bold text-[#0B1B3D] text-lg mb-1">{app.title}</h3>
-                    <div className="flex items-center gap-4 text-sm font-semibold">
-                      <span className="text-[#00D084] flex items-center gap-1">
-                        ★ {app.ratingAvg}
-                      </span>
-                      <span className="text-gray-400 font-normal">{formatNumber(app.downloads)} Downloads</span>
-                      <span className="text-gray-400 font-normal">{app.size} MB</span>
+                    <div className="flex items-center gap-4 text-sm">
+                      <span className="text-[#00D084] font-semibold">★ {app.ratingAvg}</span>
+                      <span className="text-gray-400">{formatNumber(app.downloads)} Downloads</span>
+                      <span className="text-gray-400">{app.size} MB</span>
                     </div>
                   </div>
                 </div>
                 <button 
                   onClick={() => handleUninstall(app.id, app.title)}
-                  className="btn bg-[#00D084] hover:bg-[#00b573] text-white border-none normal-case px-8 rounded-xl"
+                  className="btn bg-[#00D084] hover:bg-[#00b573] text-white border-none px-8 rounded-xl"
                 >
                   Uninstall
                 </button>
@@ -91,14 +88,6 @@ function Installation() {
           </div>
         )}
       </div>
-
-      {showToast && (
-        <div className="toast toast-bottom toast-center mb-10 z-50">
-          <div className="alert alert-error bg-red-500 text-white shadow-lg border-none rounded-xl py-4 px-8">
-            <span className="font-bold">{toastMsg}</span>
-          </div>
-        </div>
-      )}
     </div>
   );
 }

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import appsData from "../data/apps.json";
 import Loading from "../components/Loading";
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function Apps() {
   const [searchQuery, setSearchQuery] = useState("");
@@ -39,6 +41,7 @@ function Apps() {
   };
 
   return (
+    
     <div className="min-h-screen bg-[#F9FAFB] py-12 px-4">
       <div className="max-w-7xl mx-auto pt-10">
         
